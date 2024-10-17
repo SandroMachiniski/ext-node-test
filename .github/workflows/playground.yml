@@ -10,9 +10,9 @@ jobs:
     steps:
       - name: Executa echo
         run: echo blah > tmp.txt!
-        - name: Executa ls
+      - name: Executa ls
         run: ls
-        
+
   windows_job:
     
     runs-on:  windows-latest
